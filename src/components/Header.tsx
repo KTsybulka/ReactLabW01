@@ -3,14 +3,11 @@ type HeaderProps = {
     total : number;
 }
 
-
 function Header({title, total} : HeaderProps) {
     return(
         <>
             <h1>{title}</h1>
-
-            <h2>Total Number of Task: {total}</h2>
-        
+            <h2>Total Number of Task: {total}</h2>        
         </>
     )
 }
