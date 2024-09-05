@@ -40,3 +40,50 @@
 .read-the-docs {
   color: #888;
 }
+
+/* New Styles for Components */
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.taskList {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+
+.taskTitle {
+  font-size: 2rem;
+  color: #333;
+}
+
+.task {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task li {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
