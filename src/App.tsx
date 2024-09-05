@@ -1,6 +1,7 @@
 import "./App.css"
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Tasklist from "./components/Tasklist";
 
 function App() {
   const tasklist = [
@@ -27,6 +28,15 @@ function App() {
   return (
     <>
       <Header title='Task List' total={totalTasks} />
+
+      {tasklist.map(list => (
+            <Tasklist 
+                key={list.id}
+                title={list.title}
+                tasks={list.tasks}
+                id={list.id}
+            />
+        ))}
 
 
       <Footer/>
