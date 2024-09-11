@@ -13,3 +13,7 @@ function Header({title, total} : HeaderProps) {
 }
 
 export default Header;
+
+
+
+
